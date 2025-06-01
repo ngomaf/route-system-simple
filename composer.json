@@ -1,0 +1,24 @@
+{
+    "name": "ngomafortuna/route-system-simple",
+    "description": "Simple route management system (Sistema simples de gerenciamento de rotas)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ngomafortuna\\RouteSystemSimple\\": "src/",
+            "Ngomafortuna\\RouteSystemSimple\\Controllers\\": "src/controllers/",
+            "Ngomafortuna\\RouteSystemSimple\\Views\\": "src/views/",
+            "App\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ngoma M. Fortuna",
+            "email": "ngomafortuna@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0"
+    }
+}
