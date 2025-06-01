@@ -3,7 +3,7 @@ Simple route management system (Sistema simples de gerenciamento de rotas)
 
 ## Install
 ```shell
-composer require ngomafortuna/validate
+composer require ngomafortuna/route-system-simple
 
 ```
 
