@@ -1,6 +1,6 @@
 <?php
 
-namespace Ngomafortuna\RouteSystemSimple\Controllers;
+namespace App\controllers;
 
 use Ngomafortuna\RouteSystemSimple\Controller;
 

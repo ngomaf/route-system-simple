@@ -57,6 +57,11 @@ require_once PATH . '/vendor/autoload.php';
 
 ```
 
+On dir `cacutenews/vendor/ngomafortuna/route-system-simple/test/controllers/` copy the files `HomeController.php`, `NotFoundController.php` end `AboutController.php`
+(No directorio `cacutenews/vendor/ngomafortuna/route-system-simple/test/controllers/` copie os arquivos `HomeController.php`, `NotFoundController.php` e `AboutController.php`).
+
+Past to dir `cacutenews/src/controllers/` (Cole-os no directório `cacutenews/src/controllers/`).
+
 On dir `cacutenews/vendor/ngomafortuna/route-system-simple/test/views/` copy the files `error.php`, `home.php` end `master.php`
 (No directorio `cacutenews/vendor/ngomafortuna/route-system-simple/test/views/` copie os arquivos `error.php`, `home.php` e `master.php`).
 
@@ -89,7 +94,7 @@ To add new routes follow these steps: (Para adicionar novas rotas siga os seguin
 
 namespace App\controllers;
 
-use Ngomafortuna\RouteSystemSimple\Controllers\Controller;
+use Ngomafortuna\RouteSystemSimple\Controller;
 
 
 class NoticeController extends Controller
