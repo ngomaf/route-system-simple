@@ -25,6 +25,7 @@ I will illustrate with a project with the following structure (Vou exemplificar 
 
 ### Start
 Create the root directory `cacutenews`, enter the created directory and run the command `composer init` (Criar o directorio raiz `cacutenews`, entrar no directório criado e executar o comando `composer init`).
+
 Edit the `composer.json` file, just the `prs-4` block, i.e. align `"App\\": "src/"` (Editar o arquivo `composer.json`, apenas o bloco da `prs-4` ou seja alinha `"App\\": "src/"`):
 ```json
 "autoload": {
