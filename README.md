@@ -14,14 +14,14 @@ Necessary PHP 8.0 or more (Necessário PHP 8.0 ou superior)
 ### Introdution
 I will illustrate with a project with the following structure (Vou exemplificar com um projecto com a seguite extrutura):
 - cacutenews
- - public
- - resources
-    - library
-    - views
- - src
-    - controllers
-    - models
-    - services
+    - public
+    - resources
+        - library
+        - views
+    - src
+        - controllers
+        - models
+        - services
 
 ### Start
 Create the root directory `cacutenews`, enter the created directory and run the command `composer init` (Criar o directorio raiz `cacutenews`, entrar no directório criado e executar o comando `composer init`).
