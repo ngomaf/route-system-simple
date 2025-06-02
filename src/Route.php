@@ -9,7 +9,8 @@ class Route
         $uri = self::uri();
 
         if(sizeof($uri) == 1 && $uri[0] == '') {
-            (new \Ngomafortuna\RouteSystemSimple\Controllers\HomeController)->index();
+            $ctrl = MAINAME . "\\controllers\\HomeController";
+            (new $ctrl)->index();
             return;
         }
 
@@ -44,11 +45,13 @@ class Route
                 return;
             }
 
-            (new \Ngomafortuna\RouteSystemSimple\Controllers\NotFoundController)->show($uri[0] . 'Controller', $uri[1]);
+            $ctrl = MAINAME . "\\controllers\\NotFoundController";
+            (new $ctrl)->show($uri[0] . 'Controller', $uri[1]);
             return;
         }
 
-        (new \Ngomafortuna\RouteSystemSimple\Controllers\NotFoundController)->index($uri[0] . 'Controller');
+        $ctrl = MAINAME . "\\controllers\\NotFoundController";
+        (new $ctrl)->index($uri[0] . 'Controller');
     }
 
     static function uri():array

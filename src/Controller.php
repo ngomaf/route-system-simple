@@ -1,8 +1,8 @@
 <?php
 
-namespace Ngomafortuna\RouteSystemSimple\Controllers;
+namespace Ngomafortuna\RouteSystemSimple;
 
-use Ngomafortuna\RouteSystemSimple\Views\View;
+use Ngomafortuna\RouteSystemSimple\View;
 
 
 class Controller

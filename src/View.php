@@ -1,6 +1,6 @@
 <?php
 
-namespace Ngomafortuna\RouteSystemSimple\Views;
+namespace Ngomafortuna\RouteSystemSimple;
 
 class View
 {

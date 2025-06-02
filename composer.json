@@ -6,8 +6,6 @@
     "autoload": {
         "psr-4": {
             "Ngomafortuna\\RouteSystemSimple\\": "src/",
-            "Ngomafortuna\\RouteSystemSimple\\Controllers\\": "src/controllers/",
-            "Ngomafortuna\\RouteSystemSimple\\Views\\": "src/views/",
             "App\\": "test/"
         }
     },

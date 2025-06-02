@@ -1,8 +1,8 @@
 <?php
 
-namespace Ngomafortuna\RouteSystemSimple\Controllers;
+namespace App\controllers;
 
-use Ngomafortuna\RouteSystemSimple\Controllers\Controller;
+use Ngomafortuna\RouteSystemSimple\Controller;
 
 
 class HomeController extends Controller

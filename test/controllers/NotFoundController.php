@@ -2,7 +2,7 @@
 
 namespace Ngomafortuna\RouteSystemSimple\Controllers;
 
-use Ngomafortuna\RouteSystemSimple\Controllers\Controller;
+use Ngomafortuna\RouteSystemSimple\Controller;
 
 
 class NotFoundController extends Controller

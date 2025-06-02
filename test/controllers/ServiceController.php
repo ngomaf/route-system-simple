@@ -3,7 +3,7 @@
 namespace App\controllers;
 
 use App\services\OurServices;
-use Ngomafortuna\RouteSystemSimple\Controllers\Controller;
+use Ngomafortuna\RouteSystemSimple\Controller;
 
 
 class ServiceController extends Controller

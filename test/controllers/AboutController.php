@@ -2,7 +2,7 @@
 
 namespace App\controllers;
 
-use Ngomafortuna\RouteSystemSimple\Controllers\Controller;
+use Ngomafortuna\RouteSystemSimple\Controller;
 
 
 class AboutController extends Controller
