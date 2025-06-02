@@ -63,7 +63,7 @@ On dir `cacutenews/vendor/ngomafortuna/route-system-simple/test/controllers/` co
 Past to dir `cacutenews/src/controllers/` (Cole-os no directório `cacutenews/src/controllers/`).
 
 On dir `cacutenews/vendor/ngomafortuna/route-system-simple/test/views/` copy the files `error.php`, `home.php` end `master.php`
-(No directorio `cacutenews/vendor/ngomafortuna/route-system-simple/test/views/` copie os arquivos `error.php`, `home.php` e `master.php`).
+(No directorio `cacutenews/vendor/ngomafortuna/route-system-simple/test/views/` copie os arquivos `about.php`, `error.php`, `home.php` e `master.php`).
 
 Past to dir `cacutenews/resources/views/` (Cole-os no directório `cacutenews/resources/views/`).
 
